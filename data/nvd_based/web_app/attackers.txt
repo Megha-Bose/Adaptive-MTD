@@ -1,0 +1,7 @@
+none,unknown,DH,MH
+
+
+python-0,php-0,mysql-0,postgresql-0
+php-10,mysql-10
+mysql-10,postgresql-8
+python-4,php-6,mysql-5
