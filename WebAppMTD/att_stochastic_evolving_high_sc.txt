@@ -1,0 +1,42 @@
+
+Number of Attacks that can be exploited by none:  0
+
+Number of Attacks that can be exploited by unknown:  380
+
+Number of Attacks that can be exploited by DH:  367
+
+Number of Attacks that can be exploited by MH:  66
+{'none': {'python': (0.0, 0), 'php': (0.0, 0), 'mysql': (0.0, 0), 'postgresql': (0.0, 0)}, 'unknown': {'php': (0.87, 48), 'mysql': (0.7, 43)}, 'DH': {'mysql': (0.7, 43), 'postgresql': (0.65, 50)}, 'MH': {'python': (0.36, 29), 'php': (0.36, 66), 'mysql': (0.28, 56)}}
+
+Number of Attacks that can be exploited by none:  0
+
+Number of Attacks that can be exploited by unknown:  380
+
+Number of Attacks that can be exploited by DH:  367
+
+Number of Attacks that can be exploited by MH:  66
+
+Attacker Types, Tech, (Attack Success Rate, Attack Impact): 
+ {'none': {'python': (0.0, 0), 'php': (0.0, 0), 'mysql': (0.0, 0), 'postgresql': (0.0, 0)}, 'unknown': {'php': (0.87, 48), 'mysql': (0.7, 43)}, 'DH': {'mysql': (0.7, 43), 'postgresql': (0.65, 50)}, 'MH': {'python': (0.36, 29), 'php': (0.36, 66), 'mysql': (0.28, 56)}}
+
+States: 
+ [(1, 0, 1, 0), (1, 0, 0, 1), (0, 1, 1, 0), (0, 1, 0, 1)]
+
+Actions: 
+ [(1, 0, 1, 0), (1, 0, 0, 1), (0, 1, 1, 0), (0, 1, 0, 1)]
+
+ Switching costs: 
+ {((1, 0, 1, 0), (1, 0, 1, 0)): 0.0, ((1, 0, 1, 0), (1, 0, 0, 1)): 180.0, ((1, 0, 1, 0), (0, 1, 1, 0)): 60.0, ((1, 0, 1, 0), (0, 1, 0, 1)): 300.0, ((1, 0, 0, 1), (1, 0, 1, 0)): 180.0, ((1, 0, 0, 1), (1, 0, 0, 1)): 0.0, ((1, 0, 0, 1), (0, 1, 1, 0)): 270.0, ((1, 0, 0, 1), (0, 1, 0, 1)): 60.0, ((0, 1, 1, 0), (1, 0, 1, 0)): 60.0, ((0, 1, 1, 0), (1, 0, 0, 1)): 270.0, ((0, 1, 1, 0), (0, 1, 1, 0)): 0.0, ((0, 1, 1, 0), (0, 1, 0, 1)): 150.0, ((0, 1, 0, 1), (1, 0, 1, 0)): 300.0, ((0, 1, 0, 1), (1, 0, 0, 1)): 60.0, ((0, 1, 0, 1), (0, 1, 1, 0)): 150.0, ((0, 1, 0, 1), (0, 1, 0, 1)): 0.0}
+Restricted license - for non-production use only - expires 2025-11-24
+
+Alpha:  1.0
+Method: Mean Reward, Reward Std, Mean Num. Attack Success, Mean Num. Switches
+Adaptive-Threat-Aware-FMDP:  184.9328 5.0401148260729105 309.7 3.5
+FPL-MTD:  153.13975 2.2249503730420614 592.8 8.5
+EPS-GREEDY:  131.96705000000003 5.586501818893466 513.2 209.7
+URS:  34.35585000000001 3.822968101161715 521.2 756.5
+
+Config: 1 153.4403 0.709222257123952
+Config: 2 147.93239999999997 0.7047812710337811
+Config: 3 159.09965000000003 0.8399779476271991
+Config: 4 188.7731 0.5802062478119303

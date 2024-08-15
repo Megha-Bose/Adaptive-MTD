@@ -1,0 +1,42 @@
+
+Number of Attacks that can be exploited by none:  0
+
+Number of Attacks that can be exploited by unknown:  380
+
+Number of Attacks that can be exploited by DH:  367
+
+Number of Attacks that can be exploited by MH:  66
+{'none': {'python': (0.0, 0), 'php': (0.0, 0), 'mysql': (0.0, 0), 'postgresql': (0.0, 0)}, 'unknown': {'php': (0.87, 48), 'mysql': (0.7, 43)}, 'DH': {'mysql': (0.7, 43), 'postgresql': (0.65, 50)}, 'MH': {'python': (0.36, 29), 'php': (0.36, 66), 'mysql': (0.28, 56)}}
+
+Number of Attacks that can be exploited by none:  0
+
+Number of Attacks that can be exploited by unknown:  380
+
+Number of Attacks that can be exploited by DH:  367
+
+Number of Attacks that can be exploited by MH:  66
+
+Attacker Types, Tech, (Attack Success Rate, Attack Impact): 
+ {'none': {'python': (0.0, 0), 'php': (0.0, 0), 'mysql': (0.0, 0), 'postgresql': (0.0, 0)}, 'unknown': {'php': (0.87, 48), 'mysql': (0.7, 43)}, 'DH': {'mysql': (0.7, 43), 'postgresql': (0.65, 50)}, 'MH': {'python': (0.36, 29), 'php': (0.36, 66), 'mysql': (0.28, 56)}}
+
+States: 
+ [(1, 0, 1, 0), (1, 0, 0, 1), (0, 1, 1, 0), (0, 1, 0, 1)]
+
+Actions: 
+ [(1, 0, 1, 0), (1, 0, 0, 1), (0, 1, 1, 0), (0, 1, 0, 1)]
+
+ Switching costs: 
+ {((1, 0, 1, 0), (1, 0, 1, 0)): 0.0, ((1, 0, 1, 0), (1, 0, 0, 1)): 60.0, ((1, 0, 1, 0), (0, 1, 1, 0)): 20.0, ((1, 0, 1, 0), (0, 1, 0, 1)): 100.0, ((1, 0, 0, 1), (1, 0, 1, 0)): 60.0, ((1, 0, 0, 1), (1, 0, 0, 1)): 0.0, ((1, 0, 0, 1), (0, 1, 1, 0)): 90.0, ((1, 0, 0, 1), (0, 1, 0, 1)): 20.0, ((0, 1, 1, 0), (1, 0, 1, 0)): 20.0, ((0, 1, 1, 0), (1, 0, 0, 1)): 90.0, ((0, 1, 1, 0), (0, 1, 1, 0)): 0.0, ((0, 1, 1, 0), (0, 1, 0, 1)): 50.0, ((0, 1, 0, 1), (1, 0, 1, 0)): 100.0, ((0, 1, 0, 1), (1, 0, 0, 1)): 20.0, ((0, 1, 0, 1), (0, 1, 1, 0)): 50.0, ((0, 1, 0, 1), (0, 1, 0, 1)): 0.0}
+Restricted license - for non-production use only - expires 2025-11-24
+
+Alpha:  1.0
+Method: Mean Reward, Reward Std, Mean Num. Attack Success
+Adaptive-Threat-Aware-FMDP:  186.44935 5.912173826309576 275.5 11.2
+FPL-MTD:  173.71025 4.662557459431466 392.2 10.6
+EPS-GREEDY:  160.7567 2.7531637001820295 390.8 288.0
+URS:  131.0818 1.5363301923740214 394.6 758.9
+
+Config: 1 168.9652 1.413773305731865
+Config: 2 165.0342 1.205701936632762
+Config: 3 172.2434 1.1615974517878396
+Config: 4 189.1398 0.6289401879352294

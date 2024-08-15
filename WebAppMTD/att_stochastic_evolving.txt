@@ -1,0 +1,66 @@
+
+Number of Attacks that can be exploited by none:  0
+
+Number of Attacks that can be exploited by unknown:  380
+
+Number of Attacks that can be exploited by DH:  367
+
+Number of Attacks that can be exploited by MH:  66
+{'none': {'python': (0.0, 0), 'php': (0.0, 0), 'mysql': (0.0, 0), 'postgresql': (0.0, 0)}, 'unknown': {'php': (0.87, 48), 'mysql': (0.7, 43)}, 'DH': {'mysql': (0.7, 43), 'postgresql': (0.65, 50)}, 'MH': {'python': (0.36, 29), 'php': (0.36, 66), 'mysql': (0.28, 56)}}
+
+Number of Attacks that can be exploited by none:  0
+
+Number of Attacks that can be exploited by unknown:  380
+
+Number of Attacks that can be exploited by DH:  367
+
+Number of Attacks that can be exploited by MH:  66
+
+Attacker Types, Tech, (Attack Success Rate, Attack Impact): 
+ {'none': {'python': (0.0, 0), 'php': (0.0, 0), 'mysql': (0.0, 0), 'postgresql': (0.0, 0)}, 'unknown': {'php': (0.87, 48), 'mysql': (0.7, 43)}, 'DH': {'mysql': (0.7, 43), 'postgresql': (0.65, 50)}, 'MH': {'python': (0.36, 29), 'php': (0.36, 66), 'mysql': (0.28, 56)}}
+
+States: 
+ [(1, 0, 1, 0), (1, 0, 0, 1), (0, 1, 1, 0), (0, 1, 0, 1)]
+
+Actions: 
+ [(1, 0, 1, 0), (1, 0, 0, 1), (0, 1, 1, 0), (0, 1, 0, 1)]
+
+ Switching costs: 
+ {((1, 0, 1, 0), (1, 0, 1, 0)): 0.0, ((1, 0, 1, 0), (1, 0, 0, 1)): 60.0, ((1, 0, 1, 0), (0, 1, 1, 0)): 20.0, ((1, 0, 1, 0), (0, 1, 0, 1)): 100.0, ((1, 0, 0, 1), (1, 0, 1, 0)): 60.0, ((1, 0, 0, 1), (1, 0, 0, 1)): 0.0, ((1, 0, 0, 1), (0, 1, 1, 0)): 90.0, ((1, 0, 0, 1), (0, 1, 0, 1)): 20.0, ((0, 1, 1, 0), (1, 0, 1, 0)): 20.0, ((0, 1, 1, 0), (1, 0, 0, 1)): 90.0, ((0, 1, 1, 0), (0, 1, 1, 0)): 0.0, ((0, 1, 1, 0), (0, 1, 0, 1)): 50.0, ((0, 1, 0, 1), (1, 0, 1, 0)): 100.0, ((0, 1, 0, 1), (1, 0, 0, 1)): 20.0, ((0, 1, 0, 1), (0, 1, 1, 0)): 50.0, ((0, 1, 0, 1), (0, 1, 0, 1)): 0.0}
+Restricted license - for non-production use only - expires 2025-11-24
+
+Alpha:  0.0
+Method: Mean Reward, Reward Std, Mean Num. Attack Success, Mean Num. Switches
+Adaptive-Threat-Aware-FMDP:  184.20925 9.971620784130334 319.9 66.4
+FPL-MTD:  162.63465000000002 10.623796077791596 518.1 8.9
+EPS-GREEDY:  169.0512 4.280267627146692 458.6 476.9
+URS:  162.3038 1.3644655767002705 522.5 758.6
+
+Config: 1 153.72650000000004 0.9549985602083395
+Config: 2 148.3186 1.0595769155658314
+Config: 3 159.32175 0.7201975163106294
+Config: 4 188.8259 0.6552616958132094
+
+Alpha:  0.5
+Method: Mean Reward, Reward Std, Mean Num. Attack Success, Mean Num. Switches
+Adaptive-Threat-Aware-FMDP:  187.3464 1.1349841584797542 292.1 20.1
+FPL-MTD:  173.94070000000002 15.025133888255374 411.9 8.8
+EPS-GREEDY:  153.1732 3.5469781448438584 543.9 272.5
+URS:  141.6138 0.7369410492027167 518.7 754.1
+
+Config: 1 154.9361 1.1221597435303086
+Config: 2 149.6126 0.9517680599810036
+Config: 3 160.56529999999998 0.7825681184408193
+Config: 4 188.6094 0.6004913321605861
+
+Alpha:  1.0
+Method: Mean Reward, Reward Std, Mean Num. Attack Success, Mean Num. Switches
+Adaptive-Threat-Aware-FMDP:  186.417 3.3300445942959995 298.4 11.6
+FPL-MTD:  167.04715 13.727317294449776 476.5 9.8
+EPS-GREEDY:  150.36229999999998 4.106802863542393 527.3 241.6
+URS:  120.73065 0.5682735278895211 518.0 752.1
+
+Config: 1 154.4324 1.0560343933793077
+Config: 2 148.7692 1.2187174241800223
+Config: 3 159.69144999999997 0.8794000923925371
+Config: 4 188.53230000000002 0.7109908649202198
